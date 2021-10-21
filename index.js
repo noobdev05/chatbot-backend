@@ -3,8 +3,8 @@ const cors = require("cors");
 const url = "http://localhost:9000";
 const router = require("./routers/router");
 const bodyParser = require("body-parser");
-const signup = require("./signup")
-const signin = require("./signin")
+const signup = require("./signup");
+const signin = require("./signin");
 
 const app = express();
 
