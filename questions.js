@@ -23,5 +23,9 @@ const options = [
   [3, 3, 0],
   [1, 2, 4],
   [4, 1, 0],
-  [5, 0],
+  [45, 0],
 ];
+module.exports = {
+  questions: questions,
+  options: options,
+};
