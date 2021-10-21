@@ -7,8 +7,7 @@ signup.post("/signup", async (req, res) => {
     const password = req.body.password;
     console.log(email);
     console.log(password);
-    // const {email, password} = req.body;
-
+    
     auth.createUser({
         email: email,
         password: password,
@@ -20,7 +19,7 @@ signup.post("/signup", async (req, res) => {
         })
         .catch((error) => {
             console.log('Error creating new user:', error);
-            res.send("Life Sucks");
+            res.send("Error creating new user");
         });
     
 });
